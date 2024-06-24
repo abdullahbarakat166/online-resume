@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+	  <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+</head>
+<body>
+    <div class="container">
+
+		              <div class="hamburger-menu" onclick="toggleSidebar()">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                           <div class="bar"></div>
+                     </div>
+		
+		    <aside class="sidebar">
+		         		    <div class="profile-section">
+                                 <img src="img/photo.jpeg" alt="Profile Photo" class="profile-photo">
+                                 <div class="profile-name" id="profileName" style="color:white;">ABDULLAH BARAKAT</div>
+                                 <div class="profile-position" id="profileSubTitle">a.barakat198@outlook.com</div>
+	                             <div class="profile-position" id="profileSubTitle">+447470703753</div>
+                         </div>
+            <nav class="navbar">
+                <ul id="pageList">
+                     <li><a href="home.html">About me</a></li>
+                     <li><a href="academic.html">Academic History</a></li>
+                     <li><a href="professional.html">Professional History</a></li>
+                     <li><a href="testimonial.html">Testimonials</a></li>
+                     <li><a href="skills.html">Skills</a></li>
+                     <li><a href="contact.html">Contact Information</a></li>
+	                 <li><a href="currency.html">Currency Converter</a></li>
+	                 <li><a href="forecaster.html">Forecasting</a></li>
+              </ul>
+            </nav>
+		 </aside>
+         
+	
+	          <main class="content">
+                 <section id="about">
+				   <img src="img/logo.jpeg" alt="Profile Photo" />
+                   <h1>Contact Information</h1>
+				           <div class="contact-info">
+            <span class="contact-logo">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+            </span>
+            <span class="contact-link">Phone: +447470703753</span>
+        </div>
+        <div class="contact-info">
+            <span class="contact-logo">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+            </span>
+            <span class="contact-link">Email: <a href="mailto:a.barakat198@outlook.com">a.barakat198@outlook.com</a></span>
+        </div>
+        <div class="contact-info">
+            <span class="contact-logo">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </span>
+            <span class="contact-link">Linkedin: <a href="https://www.linkedin.com/in/abdullah-barakat-1a771024a/" target="_blank" rel="noopener noreferrer">Abdullah Barakat</a></span>
+        </div>
+        <div class="contact-info">
+            <span class="contact-logo">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </span>
+            <span class="contact-link">Github: <a href="https://github.com/abdullahbarakat166" target="_blank" rel="noopener noreferrer">Github</a></span>
+        </div>
+		<br><br> <hr>
+		
+		<!-- Contact Form -->
+<form id="contactForm" class="contact-form">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" maxlength="500" required></textarea>
+    <p id="charCounter">Characters left: 500</p>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+                <!-- Display Validation Errors -->
+                <div id="formErrors" class="error"></div>
+
+                <div class="contact-info">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+          <div class="qualifications-container" id="qualificationsContainer"></div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+             </main>
+	
+
+    </div>
+    <script src="assets/js/contact.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
